@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Button/Connect.png</file>
+        <file>Button/Disconnect.png</file>
+        <file>Button/Config.png</file>
+        <file>Button/UpDate.png</file>
+    </qresource>
+</RCC>

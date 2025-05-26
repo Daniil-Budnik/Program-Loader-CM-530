@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+
+
+
+    <class>ProgramLoader</class>
+
+
+
+    <widget class="QMainWindow" name="Program Loader CM 530">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>470</width>
+                <height>60</height>
+            </rect>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>470</width>
+                <height>60</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>470</width>
+                <height>60</height>
+            </size>
+        </property>
+        <property name="windowTitle">
+            <string>Program Loader CM-530 [Author: D.Budnik]</string>
+        </property>
+        <property name="windowIcon">
+            <iconset resource="../Image/Image.qrc">
+                <normaloff>:/Button/Config.png</normaloff>:/Button/Config.png
+            </iconset>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QGridLayout" name="gridLayout">
+                <property name="leftMargin">
+                    <number>0</number>
+                </property>
+                <property name="topMargin">
+                    <number>0</number>
+                </property>
+                <property name="rightMargin">
+                    <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                    <number>0</number>
+                </property>
+                <property name="spacing">
+                    <number>0</number>
+                </property>
+                <item row="0" column="0">
+                    <widget class="QGroupBox" name="groupBox_2">
+                        <property name="minimumSize">
+                            <size>
+                                <width>0</width>
+                                <height>0</height>
+                            </size>
+                        </property>
+                        <property name="maximumSize">
+                            <size>
+                                <width>16777215</width>
+                                <height>16777215</height>
+                            </size>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">QLabel{
+                                color: rgb(0, 0,0);
+                                background-color: rgba(85, 255, 255, 0);
+                                }
+
+                                QGroupBox {
+                                background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #AAAAAA, stop: 1 #EEEEEE);
+                                border: 1px solid gray;
+                                border-radius: 4px;
+                                }
+                            </string>
+                        </property>
+                        <property name="title">
+                            <string/>
+                        </property>
+                        <layout class="QGridLayout" name="gridLayout_2">
+                            <property name="leftMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="topMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="rightMargin">
+                                <number>4</number>
+                            </property>
+                            <property name="bottomMargin">
+                                <number>4</number>
+                            </property>
+                            <item row="0" column="5">
+                                <widget class="QComboBox" name="L_DVS">
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>300</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>400</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QComboBox {
+                                            color: #000000;
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #FFFFFF, stop: 1 #EEEEEE);
+                                            border: 0.5px solid gray;
+                                            border-radius: 2px;
+                                            }
+
+                                            QComboBox:hover {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #DDDDDD, stop: 1 #BBBBBB);
+                                            }
+
+                                            QComboBox::drop-down {
+                                            subcontrol-origin: padding;
+                                            subcontrol-position: top right;
+                                            width: 15px;
+
+                                            border-left-width: 1px;
+                                            border-left-color: darkgray;
+                                            border-left-style: solid;
+                                            border-top-right-radius: 3px;
+                                            border-bottom-right-radius: 3px;
+                                            }
+                                        </string>
+                                    </property>
+                                    <item>
+                                        <property name="text">
+                                            <string>Нет подключённых устройств</string>
+                                        </property>
+                                    </item>
+                                </widget>
+                            </item>
+                            <item row="0" column="3">
+                                <widget class="QPushButton" name="B_UPD">
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>45</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>45</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QPushButton {
+                                            color: #000000;
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #FFFFFF, stop: 1 #BBBBBB);
+                                            border: 0.5px solid gray;
+                                            border-radius: 5px;
+                                            }
+
+                                            QPushButton:hover {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #CCCCCC, stop: 1 #999999);
+                                            }
+
+                                            QPushButton:pressed {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #999999, stop: 1 #999999);
+                                            }
+                                        </string>
+                                    </property>
+                                    <property name="text">
+                                        <string/>
+                                    </property>
+                                    <property name="icon">
+                                        <iconset resource="../Image/Image.qrc">
+                                            <normaloff>:/Button/UpDate.png</normaloff>:/Button/UpDate.png
+                                        </iconset>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>35</width>
+                                            <height>35</height>
+                                        </size>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="0" column="2">
+                                <widget class="QPushButton" name="B_CON">
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>45</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>45</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QPushButton {
+                                            color: #000000;
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #FFFFFF, stop: 1 #BBBBBB);
+                                            border: 0.5px solid gray;
+                                            border-radius: 5px;
+                                            }
+
+                                            QPushButton:hover {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #CCCCCC, stop: 1 #999999);
+                                            ToolTip.text: qsTr(&quot;тратата&quot;) ;
+                                            }
+
+                                            QPushButton:pressed {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #999999, stop: 1 #999999);
+                                            }
+                                        </string>
+                                    </property>
+                                    <property name="text">
+                                        <string/>
+                                    </property>
+                                    <property name="icon">
+                                        <iconset resource="../Image/Image.qrc">
+                                            <normaloff>:/Button/Connect.png</normaloff>:/Button/Connect.png
+                                        </iconset>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>35</width>
+                                            <height>35</height>
+                                        </size>
+                                    </property>
+                                </widget>
+                            </item>
+                            <item row="0" column="4">
+                                <widget class="QPushButton" name="B_LOAD">
+                                    <property name="minimumSize">
+                                        <size>
+                                            <width>45</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="maximumSize">
+                                        <size>
+                                            <width>45</width>
+                                            <height>45</height>
+                                        </size>
+                                    </property>
+                                    <property name="font">
+                                        <font>
+                                            <pointsize>25</pointsize>
+                                            <weight>75</weight>
+                                            <bold>true</bold>
+                                        </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                        <string notr="true">QPushButton {
+                                            color: #000000;
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #FFFFFF, stop: 1 #BBBBBB);
+                                            border: 0.5px solid gray;
+                                            border-radius: 5px;
+                                            }
+
+                                            QPushButton:hover {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #CCCCCC, stop: 1 #999999);
+                                            }
+
+                                            QPushButton:pressed {
+                                            background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                            stop: 0 #999999, stop: 1 #999999);
+                                            }
+                                        </string>
+                                    </property>
+                                    <property name="text">
+                                        <string/>
+                                    </property>
+                                    <property name="icon">
+                                        <iconset resource="../Image/Image.qrc">
+                                            <normaloff>:/Button/Config.png</normaloff>:/Button/Config.png
+                                        </iconset>
+                                    </property>
+                                    <property name="iconSize">
+                                        <size>
+                                            <width>35</width>
+                                            <height>35</height>
+                                        </size>
+                                    </property>
+                                </widget>
+                            </item>
+                        </layout>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <resources>
+        <include location="../Image/Image.qrc"/>
+    </resources>
+    <connections/>
+</ui>
